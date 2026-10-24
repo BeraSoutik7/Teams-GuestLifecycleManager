@@ -50,6 +50,8 @@ Install-Module -Name Microsoft.Graph.Teams -Scope CurrentUser -Repository PSGall
 Install-Module -Name Microsoft.Graph.Groups -Scope CurrentUser -Repository PSGallery -Force
 
 Usage Examples
+
+Note: use "Invoke-TeamsGuestLifecycleGovernorWithoutP1P2.ps1" for tenants which don't have P1/P2 licenses
 1. Read-Only Compliance Audit (Default: 90 Days)
 
 .\src\Invoke-TeamsGuestLifecycleGovernor.ps1 -InactivityDays 90 -Mode AuditOnly
