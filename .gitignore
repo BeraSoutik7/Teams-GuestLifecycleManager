@@ -1,0 +1,11 @@
+﻿# Audit & Governance Output Reports
+reports/*.csv
+reports/*.json
+*.csv
+*.log
+
+# Workspace & IDE Artifacts
+.vscode/
+.idea/
+*.suo
+*.user
